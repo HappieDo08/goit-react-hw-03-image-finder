@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import Searchbar from '../Searchbar/Searchbar';
+import ImageGallery from '../ImageGallery/ImageGallery';
 import * as pixabayApi from '../utils/pixabay-api';
 import Button from '../Button/Button';
 import Loader from '../Loader/Loader';
 import Modal from '../Modal/Modal';
 import styles from '../App/App.module.css';
-import Searchbar from '../Searchbar/Searchbar';
-import ImageGallery from '../ImageGallery/ImageGallery';
 
 export class App extends Component {
   static defaultProps = {};
